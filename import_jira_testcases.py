@@ -3,10 +3,25 @@ from jira import JIRA, JIRAError
 from jira.exceptions import JIRAError
 import logging
 import glob
+from flask import Flask, request, render_template, flash, redirect, url_for
+from werkzeug.utils import secure_filename
+import os
 
 # 配置日志，记录错误信息
 logging.basicConfig(filename='jira_import.log', level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
+
+app = Flask(__name__)
+app.secret_key = 'your_secret_key_here'  # 用于flash消息
+app.config['UPLOAD_FOLDER'] = 'uploads'
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 限制文件大小为16MB
+ALLOWED_EXTENSIONS = {'xlsx', 'xls'}
+
+# 确保上传文件夹存在
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def read_excel(file_path):
     """读取 Excel 文件并返回 DataFrame"""
@@ -92,24 +107,59 @@ def create_test_case(jira, project_key, row):
         print(f"创建用例失败: {row['*用例标题']} - {e.text}")
         return None
 
-def import_to_jira(file_path, jira_url, project_key):
-    """主函数：读取 Excel 并批量导入 Jira"""
-    try:
-        # 使用 glob 获取所有匹配的 Excel 文件
-        excel_files = glob.glob(file_path)
-        if not excel_files:
-            raise ValueError(f"未找到匹配的 Excel 文件: {file_path}")
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        if 'file' not in request.files:
+            flash('没有选择文件')
+            return redirect(request.url)
         
-        # 读取所有匹配的 Excel 文件并合并
-        dfs = []
-        for excel_file in excel_files:
+        files = request.files.getlist('file')  # 获取所有上传的文件
+        
+        if not files or all(file.filename == '' for file in files):
+            flash('没有选择文件')
+            return redirect(request.url)
+
+        uploaded_files = []
+        for file in files:
+            if file and allowed_file(file.filename):
+                filename = secure_filename(file.filename)
+                filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+                file.save(filepath)
+                uploaded_files.append(filepath)
+
+        if uploaded_files:
             try:
-                df = read_excel(excel_file)
-                dfs.append(df)
-                print(f"成功读取文件: {excel_file}")
+                # 执行导入操作
+                created_issues = import_to_jira(uploaded_files, jira_server, project_key)
+                flash(f'成功导入 {len(created_issues)} 个测试用例')
             except Exception as e:
-                logging.error(f"读取文件 {excel_file} 失败: {e}")
-                print(f"读取文件 {excel_file} 失败: {e}")
+                flash(f'导入失败: {str(e)}')
+            
+            # 清理上传的文件
+            for filepath in uploaded_files:
+                try:
+                    os.remove(filepath)
+                except:
+                    pass
+                    
+        return redirect(url_for('upload_file'))
+    
+    return render_template('upload.html')
+
+def import_to_jira(file_paths, jira_url, project_key):
+    """主函数：读取上传的Excel文件并批量导入Jira"""
+    try:
+        # 读取所有上传的Excel文件并合并
+        dfs = []
+        for file_path in file_paths:
+            try:
+                df = read_excel(file_path)
+                dfs.append(df)
+                print(f"成功读取文件: {file_path}")
+            except Exception as e:
+                logging.error(f"读取文件 {file_path} 失败: {e}")
+                print(f"读取文件 {file_path} 失败: {e}")
                 continue
         
         if not dfs:
@@ -169,10 +219,8 @@ def search_test_cases(jira, project_key, search_term=None):
 
 if __name__ == "__main__":
     # 配置参数
-    
-    excel_path = "testcase/*.xlsx"  # Excel 文件路径
     jira_server = "https://jira.datatist.cn"  # Jira 地址
-    project_key = "XRAY1"  # 项目缩写（如 TEST）
-
-    # 执行导入
-    created_issues = import_to_jira(excel_path, jira_server, project_key)
+    project_key = "XRAY1"  # 项目缩写
+    
+    # 启动Flask应用
+    app.run(debug=True)

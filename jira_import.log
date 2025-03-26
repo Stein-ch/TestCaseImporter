@@ -205,3 +205,19 @@
 2025-03-25 21:12:12,913 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-861 HTTP/1.1" 200 None
 2025-03-25 21:12:13,540 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
 2025-03-25 21:12:13,688 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-862 HTTP/1.1" 200 None
+2025-03-26 10:20:21,546 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 10:20:21,547 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-26 10:20:21,552 - INFO -  * Restarting with stat
+2025-03-26 10:20:28,170 - WARNING -  * Debugger is active!
+2025-03-26 10:20:28,178 - INFO -  * Debugger PIN: 193-612-980
+2025-03-26 10:20:47,852 - INFO - 127.0.0.1 - - [26/Mar/2025 10:20:47] "GET / HTTP/1.1" 200 -
+2025-03-26 10:20:47,958 - INFO - 127.0.0.1 - - [26/Mar/2025 10:20:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-26 10:20:58,273 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-26 10:20:58,535 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-26 10:20:59,181 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-26 10:20:59,352 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-863 HTTP/1.1" 200 None
+2025-03-26 10:20:59,715 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-26 10:20:59,868 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-864 HTTP/1.1" 200 None
+2025-03-26 10:20:59,876 - INFO - 127.0.0.1 - - [26/Mar/2025 10:20:59] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-03-26 10:20:59,882 - INFO - 127.0.0.1 - - [26/Mar/2025 10:20:59] "GET / HTTP/1.1" 200 -
