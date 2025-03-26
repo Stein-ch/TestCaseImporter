@@ -6,15 +6,16 @@ import glob
 from flask import Flask, request, render_template, flash, redirect, url_for
 from werkzeug.utils import secure_filename
 import os
+from config import *
 
 # 配置日志，记录错误信息
 logging.basicConfig(filename='jira_import.log', level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # 用于flash消息
-app.config['UPLOAD_FOLDER'] = 'uploads'
-app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 限制文件大小为16MB
+app.secret_key = SECRET_KEY
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['MAX_CONTENT_LENGTH'] = MAX_CONTENT_LENGTH
 ALLOWED_EXTENSIONS = {'xlsx', 'xls'}
 
 # 确保上传文件夹存在
@@ -167,8 +168,8 @@ def import_to_jira(file_paths, jira_url, project_key):
             
         df = pd.concat(dfs, ignore_index=True)
         
-        username = "lori.che"
-        password = "bSN0esNYIbOqrCQMClI0zepH6gYiM4j1kKw"
+        username = JIRA_USERNAME
+        password = JIRA_PASSWORD
         
         # 连接 Jira
         jira = connect_jira(jira_url, username, password)
@@ -219,8 +220,8 @@ def search_test_cases(jira, project_key, search_term=None):
 
 if __name__ == "__main__":
     # 配置参数
-    jira_server = "https://jira.datatist.cn"  # Jira 地址
-    project_key = "XRAY1"  # 项目缩写
+    jira_server = JIRA_SERVER 
+    project_key = JIRA_PROJECT_KEY 
     
     # 启动Flask应用
     app.run(debug=True)
