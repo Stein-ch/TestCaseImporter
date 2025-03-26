@@ -1,0 +1,207 @@
+2025-03-25 15:47:46,462 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 15:47:46,740 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 15:47:47,183 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 15:47:47,354 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-790 HTTP/1.1" 200 None
+2025-03-25 15:47:47,357 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 15:47:47,357 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 15:47:47,357 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 15:47:47,357 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 15:47:47,695 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 15:47:47,861 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-791 HTTP/1.1" 200 None
+2025-03-25 15:56:16,527 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 15:56:16,760 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 15:56:17,117 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 15:56:17,277 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-792 HTTP/1.1" 200 None
+2025-03-25 15:56:17,279 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 15:56:17,280 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 15:56:17,280 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 15:56:17,280 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 15:56:17,619 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 15:56:17,784 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-793 HTTP/1.1" 200 None
+2025-03-25 15:59:57,796 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 15:59:58,166 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 15:59:58,508 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 15:59:58,692 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-794 HTTP/1.1" 200 None
+2025-03-25 15:59:58,695 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 15:59:58,695 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 15:59:58,695 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 15:59:58,695 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:27:05,936 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 20:27:06,149 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 20:27:06,150 - ERROR - 行号 2: 测试多条用例 - 错误: cannot access local variable 'issue_dict' where it is not associated with a value
+2025-03-25 20:27:06,150 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 20:27:06,150 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 20:27:06,150 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:27:06,150 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:28:46,106 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 20:28:46,323 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 20:31:26,773 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 20:31:27,000 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 20:31:27,006 - ERROR - 行号 2: 测试多条用例 - 错误: cannot access local variable 'issue_dict' where it is not associated with a value
+2025-03-25 20:31:27,006 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 20:31:27,007 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 20:31:27,007 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:31:27,007 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:31:39,052 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 20:31:39,287 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 20:31:39,292 - ERROR - 行号 2: 测试多条用例 - 错误: cannot access local variable 'issue_dict' where it is not associated with a value
+2025-03-25 20:31:39,293 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 20:31:39,293 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 20:31:39,294 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:31:39,294 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:31:53,777 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 20:31:54,049 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 20:32:34,393 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 20:32:34,607 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 20:32:44,611 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 20:32:44,774 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-795 HTTP/1.1" 200 None
+2025-03-25 20:32:49,965 - ERROR - 缺少必要字段: 用例标题 
+2025-03-25 20:32:49,965 - ERROR - 行号 3: nan - 错误: 缺少必要字段: 用例标题 
+2025-03-25 20:32:49,967 - ERROR - 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:32:49,967 - ERROR - 行号 4: nan - 错误: 缺少必要字段: 用例标题 功能模块
+2025-03-25 20:47:36,728 - ERROR - 读取 Excel 失败: [Errno 2] No such file or directory: 'testcase\\单条用例测试.xlsx'
+2025-03-25 20:47:36,728 - ERROR - 导入流程异常: [Errno 2] No such file or directory: 'testcase\\单条用例测试.xlsx'
+2025-03-25 20:58:03,292 - ERROR - 读取 Excel 失败: [Errno 22] Invalid argument: 'testcase\\*.xlsx'
+2025-03-25 20:58:03,292 - ERROR - 导入流程异常: [Errno 22] Invalid argument: 'testcase\\*.xlsx'
+2025-03-25 20:59:33,594 - ERROR - 读取 Excel 失败: [Errno 22] Invalid argument: 'testcase\\*.xlsx'
+2025-03-25 20:59:33,595 - ERROR - 导入流程异常: [Errno 22] Invalid argument: 'testcase\\*.xlsx'
+2025-03-25 21:00:07,900 - ERROR - 读取 Excel 失败: [Errno 22] Invalid argument: 'testcase/*.xlsx'
+2025-03-25 21:00:07,900 - ERROR - 导入流程异常: [Errno 22] Invalid argument: 'testcase/*.xlsx'
+2025-03-25 21:04:41,495 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 21:04:41,733 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 21:04:42,283 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:42,457 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-796 HTTP/1.1" 200 None
+2025-03-25 21:04:42,880 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:43,040 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-797 HTTP/1.1" 200 None
+2025-03-25 21:04:43,382 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:43,539 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-798 HTTP/1.1" 200 None
+2025-03-25 21:04:43,998 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:44,151 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-799 HTTP/1.1" 200 None
+2025-03-25 21:04:44,762 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:44,914 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-800 HTTP/1.1" 200 None
+2025-03-25 21:04:45,509 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:45,654 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-801 HTTP/1.1" 200 None
+2025-03-25 21:04:46,413 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:46,567 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-802 HTTP/1.1" 200 None
+2025-03-25 21:04:47,147 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:47,299 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-803 HTTP/1.1" 200 None
+2025-03-25 21:04:47,919 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:48,072 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-804 HTTP/1.1" 200 None
+2025-03-25 21:04:48,655 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:48,846 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-805 HTTP/1.1" 200 None
+2025-03-25 21:04:49,493 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:49,643 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-806 HTTP/1.1" 200 None
+2025-03-25 21:04:50,347 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:50,499 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-807 HTTP/1.1" 200 None
+2025-03-25 21:04:51,284 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:51,435 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-808 HTTP/1.1" 200 None
+2025-03-25 21:04:52,016 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:52,170 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-809 HTTP/1.1" 200 None
+2025-03-25 21:04:52,893 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:53,045 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-810 HTTP/1.1" 200 None
+2025-03-25 21:04:53,661 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:53,833 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-811 HTTP/1.1" 200 None
+2025-03-25 21:04:54,439 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:54,593 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-812 HTTP/1.1" 200 None
+2025-03-25 21:04:55,289 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:55,438 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-813 HTTP/1.1" 200 None
+2025-03-25 21:04:56,082 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:56,234 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-814 HTTP/1.1" 200 None
+2025-03-25 21:04:56,786 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:56,936 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-815 HTTP/1.1" 200 None
+2025-03-25 21:04:57,578 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:57,729 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-816 HTTP/1.1" 200 None
+2025-03-25 21:04:58,423 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:04:58,575 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-817 HTTP/1.1" 200 None
+2025-03-25 21:04:59,940 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:00,202 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-818 HTTP/1.1" 200 None
+2025-03-25 21:05:01,780 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:02,058 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-819 HTTP/1.1" 200 None
+2025-03-25 21:05:02,868 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:03,094 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-820 HTTP/1.1" 200 None
+2025-03-25 21:05:03,581 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:03,736 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-821 HTTP/1.1" 200 None
+2025-03-25 21:05:04,362 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:04,514 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-822 HTTP/1.1" 200 None
+2025-03-25 21:05:05,123 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:05,278 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-823 HTTP/1.1" 200 None
+2025-03-25 21:05:05,877 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:06,030 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-824 HTTP/1.1" 200 None
+2025-03-25 21:05:06,579 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:06,731 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-825 HTTP/1.1" 200 None
+2025-03-25 21:05:07,377 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:07,529 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-826 HTTP/1.1" 200 None
+2025-03-25 21:05:08,169 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:08,322 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-827 HTTP/1.1" 200 None
+2025-03-25 21:05:08,902 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:09,057 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-828 HTTP/1.1" 200 None
+2025-03-25 21:05:10,367 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:10,516 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-829 HTTP/1.1" 200 None
+2025-03-25 21:05:11,135 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:11,289 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-830 HTTP/1.1" 200 None
+2025-03-25 21:05:11,893 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:12,043 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-831 HTTP/1.1" 200 None
+2025-03-25 21:05:12,660 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:12,925 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-832 HTTP/1.1" 200 None
+2025-03-25 21:05:13,573 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:13,726 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-833 HTTP/1.1" 200 None
+2025-03-25 21:05:14,370 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:14,524 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-834 HTTP/1.1" 200 None
+2025-03-25 21:05:15,146 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:15,297 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-835 HTTP/1.1" 200 None
+2025-03-25 21:05:15,957 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:16,150 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-836 HTTP/1.1" 200 None
+2025-03-25 21:05:16,659 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:16,814 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-837 HTTP/1.1" 200 None
+2025-03-25 21:05:17,469 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:17,620 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-838 HTTP/1.1" 200 None
+2025-03-25 21:05:18,319 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:18,471 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-839 HTTP/1.1" 200 None
+2025-03-25 21:05:18,985 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:19,132 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-840 HTTP/1.1" 200 None
+2025-03-25 21:05:19,779 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:19,931 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-841 HTTP/1.1" 200 None
+2025-03-25 21:05:20,684 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:20,913 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-842 HTTP/1.1" 200 None
+2025-03-25 21:05:21,554 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:21,708 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-843 HTTP/1.1" 200 None
+2025-03-25 21:05:22,335 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:05:22,532 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-844 HTTP/1.1" 200 None
+2025-03-25 21:11:58,971 - DEBUG - Starting new HTTPS connection (1): jira.datatist.cn:443
+2025-03-25 21:11:59,175 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+2025-03-25 21:11:59,452 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:11:59,600 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-845 HTTP/1.1" 200 None
+2025-03-25 21:11:59,880 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:00,029 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-846 HTTP/1.1" 200 None
+2025-03-25 21:12:00,599 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:00,748 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-847 HTTP/1.1" 200 None
+2025-03-25 21:12:01,532 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:01,689 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-848 HTTP/1.1" 200 None
+2025-03-25 21:12:02,578 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:02,779 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-849 HTTP/1.1" 200 None
+2025-03-25 21:12:03,597 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:03,745 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-850 HTTP/1.1" 200 None
+2025-03-25 21:12:04,284 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:04,431 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-851 HTTP/1.1" 200 None
+2025-03-25 21:12:05,055 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:05,202 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-852 HTTP/1.1" 200 None
+2025-03-25 21:12:05,880 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:06,029 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-853 HTTP/1.1" 200 None
+2025-03-25 21:12:06,575 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:06,724 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-854 HTTP/1.1" 200 None
+2025-03-25 21:12:07,330 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:07,475 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-855 HTTP/1.1" 200 None
+2025-03-25 21:12:08,207 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:08,356 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-856 HTTP/1.1" 200 None
+2025-03-25 21:12:09,049 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:09,201 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-857 HTTP/1.1" 200 None
+2025-03-25 21:12:09,723 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:09,902 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-858 HTTP/1.1" 200 None
+2025-03-25 21:12:11,191 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:11,339 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-859 HTTP/1.1" 200 None
+2025-03-25 21:12:11,984 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:12,131 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-860 HTTP/1.1" 200 None
+2025-03-25 21:12:12,708 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:12,913 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-861 HTTP/1.1" 200 None
+2025-03-25 21:12:13,540 - DEBUG - https://jira.datatist.cn:443 "POST /rest/api/2/issue HTTP/1.1" 201 None
+2025-03-25 21:12:13,688 - DEBUG - https://jira.datatist.cn:443 "GET /rest/api/2/issue/XRAY1-862 HTTP/1.1" 200 None
